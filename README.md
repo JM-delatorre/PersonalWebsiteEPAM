@@ -3,8 +3,6 @@
 Build with astro and deployed on S3 with github actions
 
 ## Table of Contents
-
-- [Personal Static Website on S3](#personal-static-website-on-s3)
 - [Project Structure](#-project-structure)
 - [AWS Setup](#aws-setup)
   - [Create S3 Bucket](#create-s3-bucket)
@@ -144,6 +142,8 @@ Go to setting of your repository and select actions under the secrets and variab
 | AWS_S3_BUCKET | Name of the s3 bucket                                             |
 
 Now just push a new commit to the repo and wait for the workflow to finish
+
+![GHA](./Images/GHA.png)
 
 ## Local Dev
 
